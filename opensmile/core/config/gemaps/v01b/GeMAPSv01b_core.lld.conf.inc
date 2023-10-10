@@ -17,8 +17,8 @@ instance[gemapsv01b_fftmp60].type=cFFTmagphase
 reader.dmLevel=wave
 writer.dmLevel=gemapsv01b_frame60
 \{\cm[bufferModeRbConf{../../shared/BufferModeRb.conf.inc}:path to included config to set the buffer mode for the standard ringbuffer levels]}
-frameSize = 0.060
-frameStep = 0.010
+frameSize = 0.025
+frameStep = 0.020
 frameCenterSpecial = left
 
 [gemapsv01b_win60:cWindower]
@@ -50,8 +50,8 @@ instance[gemapsv01b_fftmp25].type=cFFTmagphase
 reader.dmLevel=wave
 writer.dmLevel=gemapsv01b_frame25
 \{\cm[bufferModeRbConf]}
-frameSize = 0.020
-frameStep = 0.010
+frameSize = 0.025
+frameStep = 0.020
 frameCenterSpecial = left
 
 [gemapsv01b_win25:cWindower]
